@@ -1,0 +1,74 @@
+body {
+}
+
+.container {
+	background-color: white;
+}
+
+.pull-right img-thumbnail {
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+.header-row {
+	margin-top: 20px;
+}
+
+.banner-img {
+	margin-bottom: 20px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.product-img {
+	width: 70%;
+}
+
+#test {
+	width: 83.34% !important;
+	position: absolute;
+	height: inherit;
+	right: 0;
+}
+#background-shadow {
+	width: 100% !important;
+	position: absolute;
+	height: inherit;
+	right: 0;
+	background: rgba(0, 0, 0, 0.59);
+}
+
+.col-3 {
+	height: 100%;
+	margin: 0 0px;
+}
+.m-n1 {
+	margin: -1rem !important;
+}
+.m-n2 {
+	margin: -2rem !important;
+}
+.pe-n3 {
+	margin: -3rem !important;
+}
+.pe-n1 {
+	margin: -1.5rem !important;
+}
+
+* {
+	-webkit-transition: all 0.5s;
+	-webkit-animation-name: myfading;
+	-webkit-animation-duration: 0.8s;
+	font-family: Inter, sans-serif, Arial !important;
+}
+@font-face {
+	font-family: 'Inter';
+	src: local('Inter Regular'), local('Inter-Regular'),
+	url('/font/Inter-Regular.woff2') format('woff2'),
+	url('/font/Inter-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
